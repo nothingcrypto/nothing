@@ -1,10 +1,10 @@
 pragma solidity ^0.7.4;
 
 contract Legendary {
-    string public name = "Nothing Token";
+    string public name = "Nothing";
     string public symbol = "NTH";
-    uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
-    uint8 public decimals = 18;
+    uint256 public totalSupply = 100000000000000000000; // 1 million tokens
+    uint8 public decimals = 14;
     
     /**
      * @dev Emitted when `value` tokens are moved from one account (`from`) to
